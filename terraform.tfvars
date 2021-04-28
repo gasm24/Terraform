@@ -1,0 +1,20 @@
+location       = "westeurope"
+customercode         = "demop"
+vnt_address_space = ["172.30.19.0/24"]
+private_subnet_cidr_blocks = ["172.30.19.0/25","172.30.19.128/25"]
+tags  = {
+    created-by = "teamDevOps"
+    CostGroup = "BaxEnergy"
+    CreationMethod ="Terraform"
+    ProjectStartDate = "12/04/2021"
+    CreationDate = "2021-04-12T09:42:43.6142076Z"
+    Project = "ESPX Demo"
+    App = "Espx"
+    Environment = "Production"
+    ManagedBy = "teamDevOps"
+}
+linuxserver_offer = "UbuntuServer"
+windowsserver_offer = "WindowsServer"
+lng_gateway_address = "2.47.57.132"
+lng_address_space = "192.168.1.0/24, 192.168.1.101/32, 192.168.1.186/32, 192.168.1.39/32, 192.168.100.100/32, 192.168.20.0/24, 192.168.20.165/32, 192.168.23.0/24"
+cn_shared_key = "qimJj4oNXMs4DPJU"
